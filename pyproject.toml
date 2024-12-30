@@ -1,42 +1,34 @@
-[tool.poetry]
-name = "databases-with-python"
+[project]
+name = "py-databases"
 version = "0.1.0"
-description = "Como utilizar a linguagem de programação Python com diversos bancos de dados."
-authors = ["Renato Cruz <natorsc@gmail.com>"]
+description = "Add your description here"
 readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mongoengine>=0.29.1",
+    "mysql-connector-python>=9.1.0",
+    "psycopg[binary,pool]>=3.2.3",
+    "pymongo>=4.10.1",
+    "pyodbc>=5.2.0",
+    "redis[hiredis]>=5.2.1",
+    "sqlalchemy>=2.0.36",
+]
 
-[tool.poetry.dependencies]
-python = "^3.12"
-mysql-connector-python = "^8.4.0"
-mongoengine = "^0.28.2"
-pymongo = "^4.7.3"
-pyodbc = "^5.1.0"
-sqlalchemy = "^2.0.31"
-psycopg = {extras = ["binary", "pool"], version = "^3.1.19"}
-redis = {extras = ["hiredis"], version = "^5.0.6"}
-mariadb = "^1.1.10"
-
-
-[tool.poetry.group.dev.dependencies]
-taskipy = "^1.13.0"
-ruff = "^0.4.9"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+[dependency-groups]
+dev = [
+    "ruff>=0.8.4",
+    "taskipy>=1.14.1",
+]
 
 [tool.ruff]
 line-length = 79
-extend-exclude = ['migrations']
+extend-exclude = ["migrations"]
 
 [tool.ruff.lint]
-preview = true
-select = ['I', 'F', 'E', 'W', 'PL', 'PT']
+select = ["I", "F", "E", "W", "PL", "PT"]
 
 [tool.ruff.format]
-preview = true
-quote-style = 'single'
+quote-style = "single"
 
 [tool.taskipy.tasks]
-lint = 'ruff check . && ruff check . --diff'
-format = 'ruff check . --fix && ruff format .'
+format = "ruff check . --select I --fix && ruff format ."
