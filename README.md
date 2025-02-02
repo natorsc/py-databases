@@ -16,19 +16,21 @@ Como utilizar a linguagem de programação Python com diversos bancos de dados.
 
 ---
 
-## 🤓 Autor
+## 🤓 Author
 
-Repositório feito com 💙 por [Renato Cruz](https://github.com/natorsc) 🤜🤛 Entre em contato!
+Repository created with 💙 by [Renato Cruz](https://github.com/natorsc) 🤜🤛 Feel free to reach out!
 
-[![Email](https://img.shields.io/badge/-Email-blueviolet?logo=gmail&logoColor=white)](mailto:natorsc@gmail.com "Enviar e-mail.")
+[![Email](https://img.shields.io/badge/-Email-blueviolet?logo=gmail&logoColor=white)](mailto:natorsc@gmail.com "Send an email.")
 
-Acompanhe conteúdos sobre programação e tecnologia em:
+Check out programming and technology content on:
 
-[![justcode.com.br](https://img.shields.io/badge/-justcode.com.br-grey?logo=wordpress&logoColor=white)](https://justcode.com.br/ "Acessar o justCode.")
+[![www.justcode.com.br](https://img.shields.io/badge/-justcode.com.br-grey?logo=hashnode&logoColor=white)](https://www.justcode.com.br "Visit the justCode blog.")
 
-Uma das playlist que costumo ouvir quando estou estudando ou "codando" 😁:
+[![www.swift.dev.br](https://img.shields.io/badge/-swift.dev.br-orange?logo=hashnode&logoColor=white)](www.swift.dev.br "Visit the Swift Dev BR blog.")
 
-[![Spotify](https://img.shields.io/badge/-Spotify-darkgreen?logo=spotify&logoColor=white)](https://open.spotify.com/playlist/1xf3u29puXlnrWO7MsaHL5?si=A-LgwRJXSvOno_e6trpi5w&utm_source=copy-link "Acessar playlist.")
+A playlist I often listen to while studying or coding 😁:
+
+[![Spotify](https://img.shields.io/badge/-Spotify-darkgreen?logo=spotify&logoColor=white)](https://open.spotify.com/playlist/1xf3u29puXlnrWO7MsaHL5?si=A-LgwRJXSvOno_e6trpi5w&utm_source=copy-link "Access the playlist.")
 
 ---
 
