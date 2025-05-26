@@ -1,6 +1,6 @@
 services:
   db:
-    image: mariadb:11.3.2-jammy
+    image: mariadb:11.7.2-ubi9
     container_name: MariaDB
     restart: on-failure
     ports:

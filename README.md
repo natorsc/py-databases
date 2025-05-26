@@ -1,6 +1,6 @@
-# Como utilizar Python com diversos bancos de dados
+# Mastering databases with Python
 
-[![natorsc - databases-with-python](https://img.shields.io/static/v1?label=natorsc&message=databases-with-python&color=blue&logo=github)](https://github.com/natorsc/databases-with-python "Ir para o repositório.")
+[![natorsc - databases-with-python](https://img.shields.io/static/v1?label=natorsc&message=databases-with-python&color=blue&logo=github)](https://github.com/natorsc/databases-with-python)
 &emsp;
 [![stars - databases-with-python](https://img.shields.io/github/stars/natorsc/databases-with-python?style=social)](https://github.com/natorsc/databases-with-python)
 &emsp;
@@ -10,56 +10,49 @@
 
 [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
 
-## 📝 Descrição
+## ✨ About this project
 
-Como utilizar a linguagem de programação Python com diversos bancos de dados.
-
----
-
-## 🤓 Author
-
-Repository created with 💙 by [Renato Cruz](https://github.com/natorsc) 🤜🤛 Feel free to reach out!
-
-[![Email](https://img.shields.io/badge/-Email-blueviolet?logo=gmail&logoColor=white)](mailto:natorsc@gmail.com "Send an email.")
-
-Check out programming and technology content on:
-
-[![www.justcode.com.br](https://img.shields.io/badge/-justcode.com.br-grey?logo=hashnode&logoColor=white)](https://www.justcode.com.br "Visit the justCode blog.")
-
-[![www.swift.dev.br](https://img.shields.io/badge/-swift.dev.br-orange?logo=hashnode&logoColor=white)](www.swift.dev.br "Visit the Swift Dev BR blog.")
-
-A playlist I often listen to while studying or coding 😁:
-
-[![Spotify](https://img.shields.io/badge/-Spotify-darkgreen?logo=spotify&logoColor=white)](https://open.spotify.com/playlist/1xf3u29puXlnrWO7MsaHL5?si=A-LgwRJXSvOno_e6trpi5w&utm_source=copy-link "Access the playlist.")
+Learn how to work with various databases using the Python programming language through practical examples, tips, and best practices.
 
 ---
 
-## 💝 Doações
+## 👨‍💻 Author
 
-Obrigado por sua doação, é através dela que consigo manter este conteúdo 😊.
+Crafted with 💙 by Renato Cruz. Got questions or feedback? Reach out anytime!
 
-### Pix
+[![Email](https://img.shields.io/badge/-Email-blueviolet?logo=gmail&logoColor=white)](mailto:natorsc@gmail.com)
 
-**Chave**: `b1839493-2afe-484d-9272-82a3e402b36f`
+What I'm listening to while I code or study 😎🎵:
+
+[![Spotify](https://img.shields.io/badge/-Spotify-darkgreen?logo=spotify&logoColor=white)](https://open.spotify.com/playlist/1xf3u29puXlnrWO7MsaHL5)
+
+## 💝 Support this project
+
+Your donation keeps this project alive and helps me continue creating and sharing useful content.
+
+### GitHub Sponsors
+
+[https://github.com/sponsors/natorsc/](https://github.com/sponsors/natorsc/)
+
+### Pix (Brazil)
+
+`b1839493-2afe-484d-9272-82a3e402b36f`
 
 ---
 
-## Conteúdo
+## Databases
 
 ### MariaDB
 
-- [docker-compose](src/mariadb/docker-compose.yml).
-
+- [Docker-compose](src/mariadb/docker-compose.yml).
 - [MariaDB Connector](src/mariadb/main.py).
 - [MariaDB Connector + SQLAlchemy](src/mariadb/main_sqlalchemy.py).
-
 - [MySQL Connector](src/mariadb/mysql_connector.py).
 - [MySQL Connector + SQLAlchemy](src/mariadb/mysql_connector_sqlalchemy.py).
 
 ### MongoDB
 
-- [docker-compose](src/mongodb/docker-compose.yml).
-
+- [Docker-compose](src/mongodb/docker-compose.yml).
 - [PyMongo](src/mongodb/main.py).
 - [MongoEngine](src/mongodb/main_mongoengine.py).
 
@@ -69,29 +62,25 @@ Obrigado por sua doação, é através dela que consigo manter este conteúdo �
 
 ### Microsoft SQL Server
 
-- [docker-compose](src/mssql-server/docker-compose.yml).
-
+- [Docker-compose](src/mssql-server/docker-compose.yml).
 - [Pyodbc Connector](src/mssql-server/main.py).
 - [Pyodbc Connector + SQLAlchemy](src/mssql-server/main_sqlalchemy.py).
 
 ### MySQL
 
-- [docker-compose](src/mysql/docker-compose.yml).
-
+- [Docker-compose](src/mysql/docker-compose.yml).
 - [MySQL Connector](src/mysql/main.py).
 - [MySQL Connector + SQLAlchemy](src/mysql/main_sqlalchemy.py).
 
 ### PostgreSQL
 
-- [docker-compose](src/postgresql/docker-compose.yml).
-
+- [Docker-compose](src/postgresql/docker-compose.yml).
 - [Psycopg](src/postgresql/main.py).
 - [Psycopg + SQLAlchemy](src/postgresql/main_sqlalchemy.py).
 
 ### Redis
 
-- [docker-compose](src/redis/docker-compose.yml).
-
+- [Docker-compose](src/redis/docker-compose.yml).
 - [Redis Connector](src/redis/main.py).
 
 ### SQLite
@@ -101,11 +90,11 @@ Obrigado por sua doação, é através dela que consigo manter este conteúdo �
 
 ---
 
-## Links úteis
+## Links
 
 - [SQLAlchemy](https://www.sqlalchemy.org/).
 
-### Bancos de dados
+### Official websites
 
 - [MariaDB](https://mariadb.org/).
 - [MongoDB](https://www.mongodb.com/).
@@ -116,7 +105,7 @@ Obrigado por sua doação, é através dela que consigo manter este conteúdo �
 - [Redis](https://redis.io/).
 - [SQLite](https://www.sqlite.org/).
 
-### Conectores
+### Connectors
 
 - [MariaDB Connector](https://pypi.org/project/mariadb/).
 - [PyMongo](https://pypi.org/project/pymongo/).

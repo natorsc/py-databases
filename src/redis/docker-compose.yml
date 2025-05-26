@@ -1,6 +1,6 @@
 services:
   db:
-    image: redis:7.2.4
+    image: redis:8.0.1
     container_name: Redis
     restart: on-failure
     ports:
